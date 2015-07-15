@@ -368,7 +368,7 @@ body {
   }
 }
 .intro-feature-wrap {
-  padding-top: 20px;
+  padding: 10px 20px 0 0;
 }
 @media screen and (min-width: 769px) {
   .intro-feature-wrap {
@@ -409,6 +409,10 @@ body {
   font-size: 30px;
   padding: 20px 0 0 0;
 }
+.intro-title span {
+  color: #aaa;
+  font-size: 14px;
+}
 .intro-feature-title {
   color: #0e83cd;
   font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -417,6 +421,17 @@ body {
 .intro-feature-title a {
   color: #0e83cd;
   text-decoration: none;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+.intro-feature-title a small {
+  font-size: 9px;
+  margin-left: 4px;
+  color: #aaa;
+  display: none;
+}
+.intro-feature-title a:hover small {
+  display: inline;
 }
 .intro-feature-desc {
   margin: 1.6em 0;
