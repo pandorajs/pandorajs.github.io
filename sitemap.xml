@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://pandorajs.github.io/index.html</loc>
+    <lastmod>2015-07-13T06:16:33.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pandorajs.github.io/docs/configuration.html</loc>
+    <lastmod>2015-07-10T10:53:26.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pandorajs.github.io/docs/index.html</loc>
+    <lastmod>2015-07-10T10:42:47.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pandorajs.github.io/blog/2014/06/14/hexo-2-7-released/</loc>
+    <lastmod>2015-07-06T00:13:14.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pandorajs.github.io/blog/2015/03/05/hexo-3-0-released/</loc>
+    <lastmod>2015-07-06T00:13:14.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pandorajs.github.io/blog/2015/02/27/new-documentation-and-registry/</loc>
+    <lastmod>2015-07-06T00:13:14.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pandorajs.github.io/blog/2014/07/13/hexo-2-8-released/</loc>
+    <lastmod>2015-07-06T00:13:14.000Z</lastmod>
+  </url>
+  
+</urlset>
