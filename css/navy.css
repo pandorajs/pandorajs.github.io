@@ -1503,6 +1503,14 @@ pre code {
 .highlight .line {
   height: 22px;
 }
+.highlight .line .deletion {
+  background: #ffecec;
+  color: #bd2c00;
+}
+.highlight .line .addition {
+  background: #eaffea;
+  color: #55a532;
+}
 pre .comment,
 pre .title {
   color: #8e908c;
