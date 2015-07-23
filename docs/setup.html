@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head prefix="og: http://ogp.me/ns#">
+  <meta charset="utf-8">
+  <title>开发一个组件 | Pandora</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Canonical links -->
+  <link rel="canonical" href="https://pandorajs.github.io/docs/setup.html">
+  <!-- Alternative links -->
+  
+  <!-- Icon -->
+  <link rel="apple-touch-icon" sizes="57x57" href="/icon/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/icon/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/icon/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/icon/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/icon/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/icon/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/icon/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/icon/apple-touch-icon-152x152.png">
+  <link rel="icon" type="image/png" href="/icon/favicon-196x196.png" sizes="196x196">
+  <link rel="icon" type="image/png" href="/icon/favicon-160x160.png" sizes="160x160">
+  <link rel="icon" type="image/png" href="/icon/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/icon/favicon-16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="/icon/favicon-32x32.png" sizes="32x32">
+  <meta name="msapplication-TileColor" content="#2f83cd">
+  <meta name="msapplication-TileImage" content="/icon/mstile-144x144.png">
+  <!-- CSS -->
+  <!-- build:css build/css/navy.css -->
+  <link rel="stylesheet" href="/css/navy.css" type="text/css">
+  <!-- endbuild -->
+  <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <!-- RSS -->
+  <link rel="alternative" href="/atom.xml" title="Pandora" type="application/atom+xml">
+  <!-- Open Graph -->
+  <meta name="description" content="脚手架$ mkdir now$ cd now$ yo pandora
+输出如下：
+     _-----_    |       |    |--(o)--|   .--------------------------.   `---------´  |    Welcome to Yeoman,    |    ( _´U`_ )   |   ladies and gentlemen!  |">
+<meta property="og:type" content="website">
+<meta property="og:title" content="开发一个组件">
+<meta property="og:url" content="https://pandorajs.github.io/docs/setup.html">
+<meta property="og:site_name" content="Pandora">
+<meta property="og:description" content="脚手架$ mkdir now$ cd now$ yo pandora
+输出如下：
+     _-----_    |       |    |--(o)--|   .--------------------------.   `---------´  |    Welcome to Yeoman,    |    ( _´U`_ )   |   ladies and gentlemen!  |">
+<meta property="og:image" content="https://pandorajs.github.io/docs/setup/now-test.png">
+<meta property="og:updated_time" content="2015-07-23T02:39:01.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="开发一个组件">
+<meta name="twitter:description" content="脚手架$ mkdir now$ cd now$ yo pandora
+输出如下：
+     _-----_    |       |    |--(o)--|   .--------------------------.   `---------´  |    Welcome to Yeoman,    |    ( _´U`_ )   |   ladies and gentlemen!  |">
+  <!-- Swiftype -->
+  <meta class="swiftype" name="title" data-type="string" content="开发一个组件">
+  <!-- Google Analytics -->
+</head>
+
+<body class="">
+  <div id="container">
+    <header id="header" class="wrapper">
+  <div id="header-inner" class="inner">
+    <h1 id="logo-wrap">
+      <a href="/" id="logo">Hexo</a>
+    </h1>
+    <nav id="main-nav">
+      <ul>
+        <li class="main-nav-item"><a href="/docs/" class="main-nav-link">文档</a></li>
+        <li class="main-nav-item">
+          <a href="https://github.com/lynzz" class="main-nav-link"><i class="fa fa-github-alt"></i></a>
+        </li>
+      </ul>
+    </nav>
+    
+    <div id="search-btn-wrap" class="main-nav-item">
+      <a id="search-btn" class="main-nav-link st-search-launcher"><i class="fa fa-search"></i></a>
+    </div>
+    <a id="mobile-nav-toggle">
+      <span class="mobile-nav-toggle-bar"></span>
+      <span class="mobile-nav-toggle-bar"></span>
+      <span class="mobile-nav-toggle-bar"></span>
+    </a>
+    <a id="mobile-search-btn" class="st-search-launcher"></a>
+  </div>
+</header>
+
+    <div id="content-wrap">
+  <div id="content" class="wrapper">
+    <div id="content-inner">
+      <article class="article-container" itemscope itemtype="http://schema.org/Article">
+        <div class="article-inner">
+          <div class="article">
+            <div class="inner">
+              <header class="article-header">
+                <h1 class="article-title" itemprop="name">开发一个组件</h1>
+                <a href="https://github.com/pandorajs/site/edit/master/source/docs/setup.md" class="article-edit-link" title="改进本文"><i class="fa fa-pencil"></i></a>
+              </header>
+              <div class="article-content" itemprop="articleBody" data-swiftype-index="true">
+                <h2 id="脚手架" class="article-heading">脚手架<a class="article-anchor" href="#脚手架" aria-hidden="true"></a></h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ mkdir now</span><br><span class="line">$ <span class="built_in">cd</span> now</span><br><span class="line">$ yo pandora</span><br></pre></td></tr></table></figure>
+<p>输出如下：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">     _-----_</span><br><span class="line">    |       |</span><br><span class="line">    |--(o)--|   .--------------------------.</span><br><span class="line">   `---------´  |    Welcome to Yeoman,    |</span><br><span class="line">    ( _´U`_ )   |   ladies and gentlemen!  |</span><br><span class="line">    /___A___\   <span class="string">'__________________________'</span></span><br><span class="line">     |  ~  |</span><br><span class="line">   __<span class="string">'.___.'</span>__</span><br><span class="line"> ´   `  |° ´ Y `</span><br><span class="line"></span><br><span class="line">don<span class="string">'t forget to run spm install after generator is done!</span><br><span class="line">? What is the name of your project? now</span><br><span class="line">? Your project description: </span><br><span class="line">? Base class that extended by: pandora-widget</span><br><span class="line">   create examples/index.md</span><br><span class="line">   create tests/index-spec.js</span><br><span class="line">   create package.json</span><br><span class="line">   create README.md</span><br><span class="line">   create HISTORY.md</span><br><span class="line">   create Gulpfile.js</span><br><span class="line">   create index.js</span><br><span class="line">   create .editorconfig</span><br><span class="line">   create .spmignore</span><br><span class="line">   create .jshintrc</span><br><span class="line">   create .gitignore</span><br><span class="line">   create .travis.yml</span><br><span class="line">   create LICENSE-MIT</span><br><span class="line">please run spm install and npm install!</span></span><br></pre></td></tr></table></figure>
+<p>此时已成功创建一个叫 now 的组件, 默认继承 pandora-widget</p>
+<h2 id="安装依赖" class="article-heading">安装依赖<a class="article-anchor" href="#安装依赖" aria-hidden="true"></a></h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ spm install</span><br><span class="line">$ cnpm install</span><br></pre></td></tr></table></figure>
+<p>然后安装 moment 依赖</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ spm install moment --save</span><br></pre></td></tr></table></figure>
+<h2 id="开发" class="article-heading">开发<a class="article-anchor" href="#开发" aria-hidden="true"></a></h2><p>编辑 index.js</p>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="pi">'use strict'</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> Widget = <span class="built_in">require</span>(<span class="string">'pandora-widget'</span>);</span><br><span class="line"><span class="keyword">var</span> moment = <span class="built_in">require</span>(<span class="string">'moment'</span>);</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> Now = Widget.extend(&#123;</span><br><span class="line"></span><br><span class="line">  defaults: &#123;</span><br><span class="line">    container: <span class="literal">null</span></span><br><span class="line">  &#125;,</span><br><span class="line"></span><br><span class="line">  setup: <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="keyword">this</span>.option(<span class="string">'content'</span>, <span class="string">'此时：'</span> + moment().format(<span class="string">'dddd, MMMM Do YYYY, h:mm:ss a'</span>));</span><br><span class="line">    <span class="keyword">this</span>.render();</span><br><span class="line">  &#125;,</span><br><span class="line"></span><br><span class="line">  year: <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> moment().year();</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line"><span class="built_in">module</span>.exports = Now;</span><br></pre></td></tr></table></figure>
+<p>编辑 <code>examples/index.md</code>:</p>
+<pre>
+# Demo
+
+---
+<style type="text/css">
+  .widget {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+</style>
+## Normal usage
+
+### HTML
+
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="title">div</span> <span class="attribute">id</span>=<span class="value">"example"</span> <span class="attribute">class</span>=<span class="value">"widget"</span>&gt;</span><span class="tag">&lt;/<span class="title">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+### JavaScript
+
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> Now = <span class="built_in">require</span>(<span class="string">'./index'</span>);</span><br><span class="line"><span class="keyword">new</span> Now(&#123;</span><br><span class="line">  element: <span class="string">'#example'</span></span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+</pre>
+
+<h2 id="本地调试" class="article-heading">本地调试<a class="article-anchor" href="#本地调试" aria-hidden="true"></a></h2><p>执行 <code>spm doc</code> 开启一个文档服务 127.0.0.1:8000 ：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ spm doc</span><br></pre></td></tr></table></figure>
+<p>然后在浏览器里打开 <a href="http://127.0.0.1:8000/examples/" target="_blank" rel="external">http://127.0.0.1:8000/examples/</a> 即可看到结果。</p>
+<p>你可以在 Markdown 文件里用 3 个 &#96; 来引用代码，也可以用 4 个 &#96;。</p>
+<p>这是一条特殊规则，引用的代码首先会高亮显示，然后还会被插入一个 script 标签来同步执行。这一点非常有用，在调试 demo 的同时，还可以写出优雅的文档。</p>
+<p>如果想在 demo 中插入 iframe，需声明代码为 frame 类型：</p>
+<pre>
+<figure class="highlight"><table><tr><td class="code"><pre><span class="line">I am in a iframe of 600px high</span><br></pre></td></tr></table></figure>
+
+</pre>
+
+<p>如果不想用 <code>spm doc</code> 来调试代码，你还可以试试 spm server 来调试开发模式下的 CommonJS 代码。</p>
+<h2 id="添加测试用例" class="article-heading">添加测试用例<a class="article-anchor" href="#添加测试用例" aria-hidden="true"></a></h2><p>编辑测试文件 <code>tests/index-spec.js</code>，我们默认引用了一个断言方案 <a href="http://spmjs.io/package/expect.js" target="_blank" rel="external">expect.js</a> 。</p>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> expect = <span class="built_in">require</span>(<span class="string">'expect.js'</span>);</span><br><span class="line"><span class="keyword">var</span> Now = <span class="built_in">require</span>(<span class="string">'../index'</span>);</span><br><span class="line"></span><br><span class="line">describe(<span class="string">'now'</span>, <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line"></span><br><span class="line">  it(<span class="string">'normal usage'</span>, <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="keyword">var</span> now = <span class="keyword">new</span> Now(&#123;container: <span class="string">'body'</span>&#125;);</span><br><span class="line"></span><br><span class="line">    expect(now.year()).to.be(<span class="number">2015</span>);</span><br><span class="line">  &#125;);</span><br><span class="line"></span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+<p>看看测试结果：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ spm <span class="built_in">test</span></span><br></pre></td></tr></table></figure>
+<img src="/docs/setup/now-test.png">
+<p>你也可以在浏览器里打开 <a href="http://127.0.0.1:8000/tests/runner.html" target="_blank" rel="external">http://127.0.0.1:8000/tests/runner.html</a> 查看结果。</p>
+<p>此外，还可以打开 <code>coverage/lcov-report/index.html</code> 查看测试覆盖率。</p>
+<h2 id="发布" class="article-heading">发布<a class="article-anchor" href="#发布" aria-hidden="true"></a></h2><p>现在你已拥有一个包含完整功能和完善测试用例的组件里，尝试把他发布到内部的 spmjs 源。</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ spm publish</span><br></pre></td></tr></table></figure>
+<h2 id="文档" class="article-heading">文档<a class="article-anchor" href="#文档" aria-hidden="true"></a></h2><p>内部 spmjs 源, 可以托管组件文档。你只需要编辑 README.md 和 examples 目录，通过 spm doc watch 预览，然后发布.</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ spm doc publish</span><br></pre></td></tr></table></figure>
+<p>最新版文档的 url 是 <a href="http://10.5.121.139:3001/docs/&#123;&#123;name&#125;&#125;/latest" target="_blank" rel="external">http://10.5.121.139:3001/docs/&#123;&#123;name&#125;&#125;/latest</a> ，也可以通过 <a href="http://10.5.121.139:3001/docs/&#123;&#123;name&#125;&#125;/&#123;&#123;version&#125;&#125;/" target="_blank" rel="external">http://10.5.121.139:3001/docs/&#123;&#123;name&#125;&#125;/&#123;&#123;version&#125;&#125;/</a> 访问到所有版本。</p>
+<p>比如：<a href="http://10.5.121.139:3001/docs/now/latest" target="_blank" rel="external">http://10.5.121.139:3001/docs/now/latest</a> 。</p>
+
+              </div>
+              <footer class="article-footer">
+                <time class="article-footer-updated" datetime="2015-07-23T02:39:01.000Z" itemprop="dateModified">上次更新：2015-07-23</time>
+                <a href="started.html" class="article-footer-prev" title="快速上手"><i class="fa fa-chevron-left"></i><span>上一页</span></a><a href="spm2a3.html" class="article-footer-next" title="spm2与spm3共存"><span>下一页</span><i class="fa fa-chevron-right"></i></a>
+              </footer>
+              
+            </div>
+          </div>
+          <aside id="article-toc" role="navigation">
+            <div id="article-toc-inner">
+              <strong class="sidebar-title">目录</strong>
+              <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#脚手架"><span class="toc-text">脚手架</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#安装依赖"><span class="toc-text">安装依赖</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#开发"><span class="toc-text">开发</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#本地调试"><span class="toc-text">本地调试</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#添加测试用例"><span class="toc-text">添加测试用例</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#发布"><span class="toc-text">发布</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#文档"><span class="toc-text">文档</span></a></li></ol>
+              <a href="#" id="article-toc-top">回到顶部</a>
+            </div>
+          </aside>
+        </div>
+      </article>
+      <aside id="sidebar" role="navigation">
+  <div class="inner"><strong class="sidebar-title">开始使用</strong><a href="index.html" class="sidebar-link">关于 Pandora</a><a href="configuration.html" class="sidebar-link">工具配置</a><a href="started.html" class="sidebar-link">快速上手</a><a href="setup.html" class="sidebar-link current">开发一个组件</a><strong class="sidebar-title">其它</strong><a href="spm2a3.html" class="sidebar-link">spm2与spm3共存</a><a href="spm2to3.html" class="sidebar-link">迁移spm2到spm3</a><a href="spm3.html" class="sidebar-link">spm3官方文档</a></div>
+</aside>
+    </div>
+  </div>
+</div>
+    <footer id="footer" class="wrapper">
+  <div class="inner">
+    <div id="footer-copyright">
+      &copy; 2015 <a href="http://lynzz.github.io" target="_blank">lynzz</a><br>
+      Documentation licensed under <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>.
+    </div>
+    <div id="footer-links">
+      <a href="https://twitter.com/" class="footer-link" target="_blank"><i class="fa fa-twitter"></i></a>
+      <a href="https://github.com/lynzz" class="footer-link" target="_blank"><i class="fa fa-github-alt"></i></a>
+    </div>
+  </div>
+</footer>
+
+  </div>
+  <div id="mobile-nav-dimmer"></div>
+  <nav id="mobile-nav">
+  <div id="mobile-nav-inner">
+    <ul id="mobile-nav-list">
+      <li class="mobile-nav-item"><a href="/docs/" class="mobile-nav-link">文档</a></li>
+      <li class="mobile-nav-item">
+        <a href="https://github.com/lynzz" class="mobile-nav-link" rel="external" target="_blank">GitHub</a>
+      </li>
+    </ul>
+    
+      <strong class="mobile-nav-title">开始使用</strong><a href="index.html" class="mobile-nav-link">关于 Pandora</a><a href="configuration.html" class="mobile-nav-link">工具配置</a><a href="started.html" class="mobile-nav-link">快速上手</a><a href="setup.html" class="mobile-nav-link current">开发一个组件</a><strong class="mobile-nav-title">其它</strong><a href="spm2a3.html" class="mobile-nav-link">spm2与spm3共存</a><a href="spm2to3.html" class="mobile-nav-link">迁移spm2到spm3</a><a href="spm3.html" class="mobile-nav-link">spm3官方文档</a>
+    
+  </div>
+  <div id="mobile-lang-select-wrap">
+    <span id="mobile-lang-select-label"><i class="fa fa-globe"></i><span>简体中文</span></span>
+    <select id="mobile-lang-select" data-canonical="docs/setup.html">
+      
+        <option value="en">English</option>
+      
+        <option value="zh-tw">正體中文</option>
+      
+        <option value="zh-cn" selected>简体中文</option>
+      
+    </select>
+  </div>
+</nav>
+  <!-- Scripts -->
+<!-- build:js build/js/main.js -->
+<script src="/js/lang_select.js" type="text/javascript"></script>
+<script src="/js/toc.js" type="text/javascript"></script>
+<script src="/js/mobile_nav.js" type="text/javascript"></script>
+<!-- endbuild -->
+
+
+</body>
+</html>

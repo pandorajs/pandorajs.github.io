@@ -2,13 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://pandorajs.github.io/docs/spm2to3.html</loc>
-    <lastmod>2015-07-15T09:40:33.000Z</lastmod>
+    <loc>https://pandorajs.github.io/docs/spm3.html</loc>
+    <lastmod>2015-07-23T02:52:38.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pandorajs.github.io/docs/setup.html</loc>
+    <lastmod>2015-07-23T02:39:01.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pandorajs.github.io/docs/started.html</loc>
+    <lastmod>2015-07-16T09:17:13.000Z</lastmod>
   </url>
   
   <url>
     <loc>https://pandorajs.github.io/docs/configuration.html</loc>
-    <lastmod>2015-07-15T09:02:08.000Z</lastmod>
+    <lastmod>2015-07-16T08:26:35.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pandorajs.github.io/docs/spm2a3.html</loc>
+    <lastmod>2015-07-16T08:21:37.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pandorajs.github.io/docs/spm2to3.html</loc>
+    <lastmod>2015-07-15T09:40:33.000Z</lastmod>
   </url>
   
   <url>
@@ -17,22 +37,17 @@
   </url>
   
   <url>
-    <loc>https://pandorajs.github.io/docs/spm2a3.html</loc>
-    <lastmod>2015-07-15T07:53:10.000Z</lastmod>
-  </url>
-  
-  <url>
     <loc>https://pandorajs.github.io/docs/index.html</loc>
     <lastmod>2015-07-14T10:45:39.000Z</lastmod>
   </url>
   
   <url>
-    <loc>https://pandorajs.github.io/blog/2015/03/05/hexo-3-0-released/</loc>
+    <loc>https://pandorajs.github.io/blog/2015/02/27/new-documentation-and-registry/</loc>
     <lastmod>2015-07-06T00:13:14.000Z</lastmod>
   </url>
   
   <url>
-    <loc>https://pandorajs.github.io/blog/2015/02/27/new-documentation-and-registry/</loc>
+    <loc>https://pandorajs.github.io/blog/2014/06/14/hexo-2-7-released/</loc>
     <lastmod>2015-07-06T00:13:14.000Z</lastmod>
   </url>
   
@@ -42,7 +57,7 @@
   </url>
   
   <url>
-    <loc>https://pandorajs.github.io/blog/2014/06/14/hexo-2-7-released/</loc>
+    <loc>https://pandorajs.github.io/blog/2015/03/05/hexo-3-0-released/</loc>
     <lastmod>2015-07-06T00:13:14.000Z</lastmod>
   </url>
   

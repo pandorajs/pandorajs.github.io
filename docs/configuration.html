@@ -35,26 +35,23 @@
   <!-- Open Graph -->
   <meta name="description" content="本文章会帮助你安装 Pandora 配套的工具，包括 spm 和 git。
 
-安装 node作为一个前端，你需要 node 环境。
-推荐使用 nvm 来安装：
-$ curl https://raw.githubusercontent.com/creationix/nvm/v0.16.1/install.sh | bash$ nvm install 0.10.24$ nvm alias defaul">
+安装 NodeNode.js 支持 &amp;gt;= 0.10.29, 建议安装 &amp;gt;= 0.12.0
+osx, linux 环境$ git clone git@github.com:creationix/nvm.git ~/.nvm$ source ~/.nvm/nvm.sh# 安装$ nvm install v0.12">
 <meta property="og:type" content="website">
 <meta property="og:title" content="工具配置">
 <meta property="og:url" content="https://pandorajs.github.io/docs/configuration.html">
 <meta property="og:site_name" content="Pandora">
 <meta property="og:description" content="本文章会帮助你安装 Pandora 配套的工具，包括 spm 和 git。
 
-安装 node作为一个前端，你需要 node 环境。
-推荐使用 nvm 来安装：
-$ curl https://raw.githubusercontent.com/creationix/nvm/v0.16.1/install.sh | bash$ nvm install 0.10.24$ nvm alias defaul">
-<meta property="og:updated_time" content="2015-07-15T09:02:08.000Z">
+安装 NodeNode.js 支持 &amp;gt;= 0.10.29, 建议安装 &amp;gt;= 0.12.0
+osx, linux 环境$ git clone git@github.com:creationix/nvm.git ~/.nvm$ source ~/.nvm/nvm.sh# 安装$ nvm install v0.12">
+<meta property="og:updated_time" content="2015-07-16T08:26:35.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="工具配置">
 <meta name="twitter:description" content="本文章会帮助你安装 Pandora 配套的工具，包括 spm 和 git。
 
-安装 node作为一个前端，你需要 node 环境。
-推荐使用 nvm 来安装：
-$ curl https://raw.githubusercontent.com/creationix/nvm/v0.16.1/install.sh | bash$ nvm install 0.10.24$ nvm alias defaul">
+安装 NodeNode.js 支持 &amp;gt;= 0.10.29, 建议安装 &amp;gt;= 0.12.0
+osx, linux 环境$ git clone git@github.com:creationix/nvm.git ~/.nvm$ source ~/.nvm/nvm.sh# 安装$ nvm install v0.12">
   <!-- Swiftype -->
   <meta class="swiftype" name="title" data-type="string" content="工具配置">
   <!-- Google Analytics -->
@@ -103,27 +100,11 @@ $ curl https://raw.githubusercontent.com/creationix/nvm/v0.16.1/install.sh | bas
                 <blockquote>
 <p>本文章会帮助你安装 Pandora 配套的工具，包括 spm 和 git。</p>
 </blockquote>
-<h2 id="安装_node" class="article-heading">安装 node<a class="article-anchor" href="#安装_node" aria-hidden="true"></a></h2><p>作为一个前端，你需要 node 环境。</p>
-<p>推荐使用 <a href="https://github.com/creationix/nvm" target="_blank" rel="external">nvm</a> 来安装：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ curl https://raw.githubusercontent.com/creationix/nvm/v0.<span class="number">16.1</span>/install.sh | bash</span><br><span class="line">$ nvm install <span class="number">0.10</span>.<span class="number">24</span></span><br><span class="line">$ nvm <span class="built_in">alias</span> default <span class="number">0.10</span>.<span class="number">24</span></span><br></pre></td></tr></table></figure>
-<p>另外，也可以在<a href="http://nodejs.org/download/" target="_blank" rel="external">官方下载</a>或<a href="https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager" target="_blank" rel="external">通过包管理工具安装</a>。</p>
-<h2 id="去除_sudo" class="article-heading">去除 sudo<a class="article-anchor" href="#去除_sudo" aria-hidden="true"></a></h2><p><strong>如果你是用 nvm 来安装的 node，可跳过此节。</strong></p>
-<p>使用 npm 安装模块的时候经常要输入 sudo，还要输入密码，这点很让人烦躁。下面你可以简单粗暴的去除 sudo（看看作者的<a href="http://howtonode.org/introduction-to-npm" target="_blank" rel="external">软文</a>）</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ sudo chown -R <span class="variable">$USER</span> /usr/<span class="built_in">local</span></span><br></pre></td></tr></table></figure>
-<p>或者参照 npm 官方的文档来设置：<a href="https://docs.npmjs.com/getting-started/fixing-npm-permissions" target="_blank" rel="external">https://docs.npmjs.com/getting-started/fixing-npm-permissions</a></p>
-<h2 id="安装_git" class="article-heading">安装 git<a class="article-anchor" href="#安装_git" aria-hidden="true"></a></h2><p>版本管理工具也是必须的，可以先<a href="http://rogerdudler.github.com/git-guide/index.zh.html" target="_blank" rel="external">了解 git 的相关内容</a> 。</p>
-<p>git 下载地址如下</p>
-<ul>
-<li><a href="https://code.google.com/p/git-osx-installer/downloads/list?can=3&amp;q=&amp;sort=-uploaded&amp;colspec=Filename+Summary+Uploaded+Size+DownloadCount" target="_blank" rel="external">git for mac</a></li>
-<li><a href="https://code.google.com/p/msysgit/downloads/list?q=full+installer+official+git" target="_blank" rel="external">git for windows </a></li>
-</ul>
-<h2 id="windows_环境" class="article-heading">windows 环境<a class="article-anchor" href="#windows_环境" aria-hidden="true"></a></h2><p>推荐使用 windows 的包管理工具 <a href="https://github.com/chocolatey/chocolatey" target="_blank" rel="external">chocolatey</a>。</p>
-<p>安装 nodejs 和 git ：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">c:\&#62; cinst git.install&#10;c:\&#62; cinst nodejs.install</span><br></pre></td></tr></table></figure>
-<p>设置环境变量：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">PATH = C:\Users\&#123;&#123;username&#125;&#125;\AppData\Roaming\npm&#10;NODE_PATH = C:\Users\&#123;&#123;username&#125;&#125;\AppData\Roaming\npm\node_modules</span><br></pre></td></tr></table></figure>
-<p>设置 prefix，使 Windows 下可全局安装：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm config set prefix C:\Users\&#123;&#123;username&#125;&#125;\AppData\Roaming\npm</span><br></pre></td></tr></table></figure>
+<h2 id="安装_Node" class="article-heading">安装 Node<a class="article-anchor" href="#安装_Node" aria-hidden="true"></a></h2><p><code>Node.js</code> 支持 &gt;= 0.10.29, 建议安装 &gt;= 0.12.0</p>
+<h3 id="osx,_linux_环境" class="article-heading">osx, linux 环境<a class="article-anchor" href="#osx,_linux_环境" aria-hidden="true"></a></h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> git@github.com:creationix/nvm.git ~/.nvm</span><br><span class="line">$ <span class="built_in">source</span> ~/.nvm/nvm.sh</span><br><span class="line"><span class="comment"># 安装</span></span><br><span class="line">$ nvm install v0.<span class="number">12.0</span></span><br><span class="line"><span class="comment"># 显示当前本地安装的所有 Node.js</span></span><br><span class="line">$ nvm ls </span><br><span class="line"><span class="comment"># 显示服务器所有可用的 Node.js</span></span><br><span class="line">$ nvm ls-remote</span><br><span class="line"><span class="comment"># 本地可用的 Node.js 中使用 0.12.0</span></span><br><span class="line">$ nvm use <span class="number">0.12</span>.<span class="number">0</span></span><br><span class="line"><span class="comment"># 设置每次启动默认版本</span></span><br><span class="line">$ nvm <span class="built_in">alias</span> default <span class="number">0.12</span>.<span class="number">0</span></span><br></pre></td></tr></table></figure>
+<h3 id="window_环境" class="article-heading">window 环境<a class="article-anchor" href="#window_环境" aria-hidden="true"></a></h3><p>这里假设大家都使用 <code>d:\git</code> 目录存放 git 项目。</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ d:</span><br><span class="line">$ <span class="built_in">cd</span> git</span><br><span class="line">$ git <span class="built_in">clone</span> git@github.com:nanjingboy/nvmw.git</span><br><span class="line"><span class="comment"># 设置 d:\git\nvmw 墓道到 PATH 环境变量</span></span><br><span class="line">$ <span class="built_in">set</span> <span class="string">"PATH=d:\git\nvmw;%PATH%"</span></span><br><span class="line"><span class="comment"># 安装</span></span><br><span class="line">$ nvmw install <span class="number">0.12</span>.<span class="number">0</span></span><br><span class="line"><span class="comment"># 显示当前本地安装的所有 Node.js</span></span><br><span class="line">$ nvmw ls </span><br><span class="line"><span class="comment"># 显示服务器所有可用的 Node.js</span></span><br><span class="line">$ nvmw ls-remote</span><br><span class="line"><span class="comment"># 本地可用的 Node.js 中使用 0.12.0</span></span><br><span class="line">$ nvmw use <span class="number">0.12</span>.<span class="number">0</span></span><br><span class="line"><span class="comment"># 设置每次启动默认版本</span></span><br><span class="line">$ nvmw switch <span class="number">0.12</span>.<span class="number">0</span></span><br></pre></td></tr></table></figure>
+<h3 id="node-gyp_编译环境配置_(可选)" class="article-heading">node-gyp 编译环境配置 (可选)<a class="article-anchor" href="#node-gyp_编译环境配置_(可选)" aria-hidden="true"></a></h3><p><a href="https://github.com/TooTallNate/node-gyp#installation" target="_blank" rel="external">https://github.com/TooTallNate/node-gyp#installation</a></p>
 <h2 id="安装_spm" class="article-heading">安装 spm<a class="article-anchor" href="#安装_spm" aria-hidden="true"></a></h2><p>Panodra 已经全面迁移到 <a href="http://10.5.121.139:3001" target="_blank" rel="external">spm3</a> 的体系上。</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm install spm -g</span><br></pre></td></tr></table></figure>
 <h2 id="安装_generator-pandora" class="article-heading">安装 generator-pandora<a class="article-anchor" href="#安装_generator-pandora" aria-hidden="true"></a></h2><p>我们采用了 yeoman 来生成 pandora 组件，没有用 spm init 来初始</p>
@@ -133,8 +114,8 @@ $ curl https://raw.githubusercontent.com/creationix/nvm/v0.16.1/install.sh | bas
 
               </div>
               <footer class="article-footer">
-                <time class="article-footer-updated" datetime="2015-07-15T09:02:08.000Z" itemprop="dateModified">上次更新：2015-07-15</time>
-                <a href="index.html" class="article-footer-prev" title="关于 Pandora"><i class="fa fa-chevron-left"></i><span>上一页</span></a><a href="spm2a3.html" class="article-footer-next" title="sidebar.docs.spm2a3"><span>下一页</span><i class="fa fa-chevron-right"></i></a>
+                <time class="article-footer-updated" datetime="2015-07-16T08:26:35.000Z" itemprop="dateModified">上次更新：2015-07-16</time>
+                <a href="index.html" class="article-footer-prev" title="关于 Pandora"><i class="fa fa-chevron-left"></i><span>上一页</span></a><a href="started.html" class="article-footer-next" title="快速上手"><span>下一页</span><i class="fa fa-chevron-right"></i></a>
               </footer>
               
             </div>
@@ -142,14 +123,14 @@ $ curl https://raw.githubusercontent.com/creationix/nvm/v0.16.1/install.sh | bas
           <aside id="article-toc" role="navigation">
             <div id="article-toc-inner">
               <strong class="sidebar-title">目录</strong>
-              <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#安装_node"><span class="toc-text">安装 node</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#去除_sudo"><span class="toc-text">去除 sudo</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#安装_git"><span class="toc-text">安装 git</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#windows_环境"><span class="toc-text">windows 环境</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#安装_spm"><span class="toc-text">安装 spm</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#安装_generator-pandora"><span class="toc-text">安装 generator-pandora</span></a></li></ol>
+              <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#安装_Node"><span class="toc-text">安装 Node</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#osx,_linux_环境"><span class="toc-text">osx, linux 环境</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#window_环境"><span class="toc-text">window 环境</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#node-gyp_编译环境配置_(可选)"><span class="toc-text">node-gyp 编译环境配置 (可选)</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#安装_spm"><span class="toc-text">安装 spm</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#安装_generator-pandora"><span class="toc-text">安装 generator-pandora</span></a></li></ol>
               <a href="#" id="article-toc-top">回到顶部</a>
             </div>
           </aside>
         </div>
       </article>
       <aside id="sidebar" role="navigation">
-  <div class="inner"><strong class="sidebar-title">开始使用</strong><a href="index.html" class="sidebar-link">关于 Pandora</a><a href="configuration.html" class="sidebar-link current">工具配置</a><strong class="sidebar-title">其它</strong><a href="spm2a3.html" class="sidebar-link">sidebar.docs.spm2a3</a><a href="spm2to3.html" class="sidebar-link">迁移spm2到spm3</a></div>
+  <div class="inner"><strong class="sidebar-title">开始使用</strong><a href="index.html" class="sidebar-link">关于 Pandora</a><a href="configuration.html" class="sidebar-link current">工具配置</a><a href="started.html" class="sidebar-link">快速上手</a><a href="setup.html" class="sidebar-link">开发一个组件</a><strong class="sidebar-title">其它</strong><a href="spm2a3.html" class="sidebar-link">spm2与spm3共存</a><a href="spm2to3.html" class="sidebar-link">迁移spm2到spm3</a><a href="spm3.html" class="sidebar-link">spm3官方文档</a></div>
 </aside>
     </div>
   </div>
@@ -178,7 +159,7 @@ $ curl https://raw.githubusercontent.com/creationix/nvm/v0.16.1/install.sh | bas
       </li>
     </ul>
     
-      <strong class="mobile-nav-title">开始使用</strong><a href="index.html" class="mobile-nav-link">关于 Pandora</a><a href="configuration.html" class="mobile-nav-link current">工具配置</a><strong class="mobile-nav-title">其它</strong><a href="spm2a3.html" class="mobile-nav-link">sidebar.docs.spm2a3</a><a href="spm2to3.html" class="mobile-nav-link">迁移spm2到spm3</a>
+      <strong class="mobile-nav-title">开始使用</strong><a href="index.html" class="mobile-nav-link">关于 Pandora</a><a href="configuration.html" class="mobile-nav-link current">工具配置</a><a href="started.html" class="mobile-nav-link">快速上手</a><a href="setup.html" class="mobile-nav-link">开发一个组件</a><strong class="mobile-nav-title">其它</strong><a href="spm2a3.html" class="mobile-nav-link">spm2与spm3共存</a><a href="spm2to3.html" class="mobile-nav-link">迁移spm2到spm3</a><a href="spm3.html" class="mobile-nav-link">spm3官方文档</a>
     
   </div>
   <div id="mobile-lang-select-wrap">
